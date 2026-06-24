@@ -14,11 +14,11 @@ The buck converter power stage was first analyzed in LTspice to understand PWM-b
 
 #### Case 2
 
-![Case 2](images/CASE2.png)
+![Image](Images/CASE2.png)
 
 #### Case 3
 
-![Case 3](images/CASE3.png)
+![Image](Images/CASE3.png)
 
 ---
 
@@ -26,7 +26,7 @@ The buck converter power stage was first analyzed in LTspice to understand PWM-b
 
 A complete hardware schematic was developed in Proteus using STM32 and buck converter components.
 
-![Proteus Circuit](images/PROTEUS_CKT.JPG)
+![Image](Images/PROTEUS_CKT.JPG)
 
 ---
 
@@ -34,16 +34,16 @@ A complete hardware schematic was developed in Proteus using STM32 and buck conv
 
 #### Test 1 – 3.3V Mode
 
-![3.3V Test](images/TEST_3.3V.png)
+![Image](Images/TEST_3.3V.png)
 
 #### Test 2 – 5V Mode
 
-![5V Test](images/TEST_5V.png)
+![Image](Images/TEST_5V.png)
 
 #### Test 3 – 9V Mode
 
-![9V Test](images/TEST_9V.png)
+![Image](Images/TEST_9V.png)
 
 #### Final Wokwi Circuit
 
-![Final Wokwi Circuit](images/WOKWI_CKT.png)
+![Image](Images/WOKWI_CKT.png)
