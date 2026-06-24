@@ -6,7 +6,7 @@ The buck converter power stage was first analyzed in LTspice to understand PWM-b
 
 #### LTspice Circuit
 
-![Image](images/LTSPICE_CIRCUIT.png)
+![Image](Images/LTSPICE_CIRCUIT.png)
 
 #### Case 1
 
