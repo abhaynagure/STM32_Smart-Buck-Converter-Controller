@@ -1,42 +1,39 @@
 # Wokwi Simulation
 
-This folder contains the firmware development and simulation work performed using Wokwi.
+The firmware development was completed using Wokwi simulations.
 
-## Test 1 – TFT Display Verification
+## Stage 1 – Display Verification
 
-Purpose:
-
-* Verify SPI communication.
-* Verify ILI9341 TFT display operation.
-* Display static messages on the screen.
+The first stage focused on verifying STM32 communication with the ILI9341 TFT display.
 
 File:
 
 * Display_Test.ino
 
-Expected Display:
+## Stage 2 – Feature Integration
 
-* Smart Buck
-* STM32 OK
-* PWM Ready
+Additional functionality was progressively added:
 
-## Final Smart Buck Controller
+* Voltage selection buttons
+* Mode switching
+* RGB LED status indication
 
-Purpose:
+These development stages were integrated directly into the final implementation.
 
-* Voltage mode selection using push buttons.
-* TFT display interface.
-* RGB LED status indication.
+## Stage 3 – Final Smart Buck Controller
 
-Supported Modes:
+The final implementation includes:
 
 * 3.3V Mode
 * 5V Mode
 * 9V Mode
+* TFT Display Interface
+* RGB LED Status Indication
+* PWM Duty Cycle Display
 
 File:
 
 * Final_Smart_Buck_Controller.ino
 
-Simulation:
+Simulation Link:
 https://wokwi.com/projects/467642954502408193
