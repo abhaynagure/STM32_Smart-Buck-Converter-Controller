@@ -244,7 +244,7 @@ Abhay Nagure
 
 B.E. Electronics and Communication Engineering (ECE)
 
-Academic Project – Smart Buck Converter Controller
+Project – Smart Buck Converter Controller
 
 ---
 
