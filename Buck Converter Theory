@@ -1,0 +1,17 @@
+A buck converter is a DC-DC converter that steps down an input voltage to a lower output voltage.
+
+For an ideal buck converter:
+
+Vout = D × Vin
+
+where:
+
+- Vout = Output Voltage
+- Vin = Input Voltage
+- D = Duty Cycle
+
+| Output | Duty Cycle |
+| ------ | ---------- |
+| 3.3V   | ~23%       |
+| 5V     | ~42%       |
+| 9V     | ~75%       |
