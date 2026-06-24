@@ -1,41 +1,33 @@
 # Proteus Design
 
-This folder contains the Proteus-based hardware design for the Smart Buck Converter Controller project.
+This folder contains the Proteus implementation of the Smart Buck Converter Controller.
 
 ## Objective
 
-To create a complete virtual hardware implementation of the Smart Buck Controller using STM32 and supporting peripherals.
+To design and simulate an STM32-based controller interface before hardware implementation.
 
-## Components Used
+## Hardware Used
 
-* STM32 Blue Pill
-* LCD Display
+* STM32 Blue Pill (STM32F103C8T6)
+* 16x2 LCD Display
 * Push Buttons
+* PWM Control Interface
 * Buck Converter Power Stage
-* PWM Control Signal
-* Voltage Selection Interface
 
 ## Files
 
 ### Smart_Buck_Controller.pdsprj
 
-Proteus project file containing the complete hardware schematic and simulation setup.
+Proteus project containing the complete schematic and simulation setup.
 
-### Proteus_Code.ino
+### STM32_BluePill_LCD.ino
 
-Firmware intended for use with the Proteus hardware design.
+Firmware developed for interfacing the STM32 Blue Pill with the LCD display and controller logic.
 
-## Hardware Features
+## Development Notes
 
-* Voltage mode selection
-* PWM generation
-* User interface display
-* Controller simulation
+During development, STM32 configuration and simulation limitations in Proteus made firmware validation challenging. The final user-interface implementation and demonstration were therefore completed using Wokwi.
 
-## Notes
+## Outcome
 
-The Proteus implementation was developed as a hardware-design stage of the project. Due to simulator limitations and STM32 configuration challenges, the final firmware validation and user-interface implementation were completed in Wokwi.
-
-## Conclusion
-
-The Proteus design helped establish the complete hardware architecture before transitioning to Wokwi for firmware verification and demonstration.
+The Proteus design phase helped establish the overall hardware architecture, pin assignments, and controller interface used later in the final project.
