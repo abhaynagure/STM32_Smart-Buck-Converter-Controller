@@ -220,7 +220,7 @@ This project helped develop practical knowledge in:
 * Embedded Systems Design
 * STM32 Programming
 * Display Interfacing
-* Hardware Simulation
+* Hardware Simulations
 * Engineering Documentation
 * GitHub Project Management
 
