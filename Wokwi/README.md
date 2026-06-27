@@ -10,7 +10,7 @@ File:
 
 * Display_Test.ino
 
-## Stage 2 – Feature Integration
+## Stage 2 – Feature Integration.
 
 Additional functionality was progressively added:
 
